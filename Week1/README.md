@@ -21,15 +21,15 @@ Viktor Jacynycz, Antonio Tenorio, Sem, Tati Nazarova
 
 Supply Chain
 
-## Problem we are adressing
+## Problem we are addressing
 
-The **current science distribution model** was developed in a time without Internet. In the past, the only way to access state of the art knowledge was to subscribe to specialized academic journals, but nowadays this model is obsolete. The publishing process is extremely slow, sometimes during years in which the authors of a paper can not share their scientific advances with the community until the article is not published. This **obstructs the access to knowledge, instead of promoting it**.
+The **current science distribution model** was developed before the Internet age. In the past, the only way to access state of the art knowledge was to subscribe to specialized academic journals, but nowadays this model is obsolete. The publishing process is extremely slow, sometimes lasting years in which the authors of a paper cannot share their scientific advances with the community until the article is published. This **obstructs the access to knowledge, instead of promoting it**.
 
-This model is only serving the interests of big publishing oligarchies, not the interests of society and the scientific community. This distribution model is so unfair, that publishers usually get the scientific papers and reviews for free from their authors, meanwhile they charge scientists, institutions and people to access those papers.
+This model is only serving the interests of big publishing oligarchies, not the interests of society and the scientific community. This distribution model is so unfair that publishers usually get the scientific papers and reviews for free from their authors, while they charge scientists, institutions and people to access those papers.
 
-Many are the challenges that science distribution faces today, from providing open access to knowledge, to use alternative metrics for measuring the quality of science.
+Many are the challenges that science distribution faces today, from providing open access to knowledge, to using alternative metrics for measuring the quality of science.
 
-Using the Internet as a distribution platform and Blockchain technology to enable distributed governance and remove intermediaries, we aim to change the way science is distributed today. Concretely, we aim to use the IlnterPlanetary File System (IPFS) as an open, distributed, and non-censurable **channel to share scientific papers**; and develop an Ethereum Distributed Autonomous Organization (DAO) to enable a **distributed peer-review process** in which trusted reviewers can accept, propose changes and reject papers, being the accepted papers "published" in the DAO's distributed journal.
+By using the Internet as a distribution platform and Blockchain technology to enable distributed governance and remove intermediaries, we aim to change the way science is distributed today. Concretely, we aim to use the IlnterPlanetary File System (IPFS) as an open, distributed, and non-censurable **channel to share scientific papers**; and develop an Ethereum Distributed Autonomous Organization (DAO) to enable a **distributed peer-review process** in which trusted reviewers can accept, propose changes and reject papers, being the accepted papers "published" in the DAO's distributed journal.
 
 This approach enables open access by default, makes the peer review and publication process easier and faster, removing intermediaries such as publishers, and makes the process entirely transparent. Moreover, by changing the distribution model, the production model is also challenged. Making the distribution and evaluation of science easier may encourage new models of production similar to open-source, in which the knowledge is not considered static and it is easy for external contributors to propose enhancements.
 
@@ -58,10 +58,10 @@ Source: Johnson, Rob, Mattia Fosci, Andrea Chiarelli, Stephen Pinfield, and Mich
 
 Many solutions have been proposed to provide open access to knowledge and to improve the publishing and distribution of science. There are two open-access distribution models, Green Open Access and Gold Open Access. On the one hand, authors using Green Open Access model share their work in an open repository (such as CiteSeer, arXiv, PubMed Central), but they can only share the work they have the rights of (usually only preprint versions). On the other hand, Gold Open Access provides free access to the content, while authors, subscribers, advertisers or founders are charged.
 
-Both traditional and new publishers and journals (e.g. Elsevier and PLOSS, respectively) provide open access for science publication. However both Green and Gold models make profit out of knowledge publication, either by charging for the final versions, or by charging the authors or making profit with other business models, respectively.
+Both traditional and new publishers and journals (e.g. Elsevier and PLOSS, respectively) provide open access for science publication. However, both Green and Gold models make profit out of knowledge publication, either by charging for the final versions, or, alternatively, by charging the authors or making profit with other business models.
 
-Open access to knowledge is also being promoted through sharing access to papers (either open access or not) with tools such as sci-hub.cc. These solutions are however accused of copyright infringement, and have been blocked in some countries.
+Open access to knowledge is also being promoted through sharing access to papers (either open access or not) with tools such as sci-hub.cc. These solutions are, however, accused of copyright infringement, and have been blocked in some countries.
 
-Regarding publication speed, journals are begining to adopt online and continuous publication to deliver accepted papers online as soon as they are ready. Otherwhise papers have to wait for the other journal papers to be finished in order to publish the entire issue.
+Regarding publication speed, journals are beginning to adopt online and continuous publication to deliver accepted papers online as soon as they are ready. Using this approach, papers do not have to wait for other journal papers to be finished in order to publish the entire issue.
 
-However, to our knowledge there have been no attempts to grant open access through peer-to-peer technology by the journal/publishers or to provide transparency and efficiency in the peer review and publication processes through Blockchain technology.
+However, to our knowledge, there have been no attempts to grant open access through peer-to-peer technology by the journal/publishers or to provide transparency and efficiency in the peer review and publication processes through Blockchain technologies.
