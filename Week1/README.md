@@ -62,6 +62,6 @@ Both traditional and new publishers and journals (e.g. Elsevier and PLOSS, respe
 
 Open access to knowledge is also being promoted through sharing access to papers (either open access or not) with tools such as sci-hub.cc. These solutions are, however, accused of copyright infringement, and have been blocked in some countries.
 
-Regarding publication speed, journals are beginning to adopt online and continuous publication to deliver accepted papers online as soon as they are ready. Using this approach, papers do not have to wait for other journal papers to be finished in order to publish the entire issue.
+Regarding publication speed, journals are beginning to adopt online and continuous publication to deliver accepted papers online as soon as they are ready. Using this approach, authors do not have to wait for other journal papers to be finished in order to publish the entire issue.
 
 However, to our knowledge, there have been no attempts to grant open access through peer-to-peer technology by the journal/publishers or to provide transparency and efficiency in the peer review and publication processes through Blockchain technologies.
