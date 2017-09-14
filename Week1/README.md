@@ -29,16 +29,19 @@ This model is only serving the interests of big publishing oligarchies, not the 
 
 Many are the challenges that science distribution faces today, from providing open access to knowledge, to use alternative metrics for measuring the quality of science.
 
-Using the Internet as a distribution platform and Blockchain technology to enable distributed governance and remove intermediaries, we aim to change the way science is distributed today. Concretely, we aim to use the InterPlanetary File System (IPFS) as an open, distributed, and non-censurable **channel to share scientific papers**; and develop an Ethereum Distributed Autonomous Organization (DAO) to enable a **distributed peer-review process** in which trusted reviewers can accept, propose changes and reject papers, being the accepted papers "published" in the DAO's distributed journal.
+Using the Internet as a distribution platform and Blockchain technology to enable distributed governance and remove intermediaries, we aim to change the way science is distributed today. Concretely, we aim to use the IlnterPlanetary File System (IPFS) as an open, distributed, and non-censurable **channel to share scientific papers**; and develop an Ethereum Distributed Autonomous Organization (DAO) to enable a **distributed peer-review process** in which trusted reviewers can accept, propose changes and reject papers, being the accepted papers "published" in the DAO's distributed journal.
 
-This approach enables open access by default, makes the peer review and publication process easier and faster, removing intermediaries such as publishers, and makes the process entirely transparent. Moreover, by changing the distribution model, the production model is also challenged. Making the distribution and evaluation of science easier may encorage new models of production similar to open-source, in which the knowledge is not considered static and it is easy for external contributors to propose enhancements.
+This approach enables open access by default, makes the peer review and publication process easier and faster, removing intermediaries such as publishers, and makes the process entirely transparent. Moreover, by changing the distribution model, the production model is also challenged. Making the distribution and evaluation of science easier may encourage new models of production similar to open-source, in which the knowledge is not considered static and it is easy for external contributors to propose enhancements.
 
 ## Why is Blockchain needed to solve this problem?
 
-With Blockchain technology we can develop Distributed Autonomous Organizations that replace traditional journals in the peer review and publishing process. These distributed journals could transparently define their rules, such as the number of favorable peer-reviews needed for a paper to be published, or who are the people that can decide if the paper is in the scope of the journal.
+With Blockchain technology we can develop Distributed Autonomous Organizations (DAOs) that replace traditional journals in the peer review and publishing process. The gobernace of these journals will be defined by the DAO's source code in Ethereum.
 
-Thus, scientific community will be able to publish and access peer-reviewed papers without any cost. Moreover, the quality of the journal will be defined by the distributed journal rules to decide if a paper is accepted, and other governance rules such as the review process maximum time could be enforced with Blockchain technologies.
+The DAOs will transparently define their rules, such as the number of favorable peer-reviews needed for a paper to be published, or who are the people that can decide if the paper is in the scope of the journal.
 
+Thus, scientific community will be able to publish and access peer-reviewed papers without any cost. Moreover, anyone can create their own journal with custom gobernace rules to publish scientific knowledge.
+
+The knowledge stored in these DAOs will be permanent, incensorable and globally accesible for everyone.
 
 ## What is the size of the market?
 
