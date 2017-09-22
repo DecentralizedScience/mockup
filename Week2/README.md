@@ -29,7 +29,15 @@ Other users are:
 
 ## What is your product's value proposition?
 
-We aim to build a new generation of distributed journals. It will enable transparent processes for science publishing and remove unnecesary intermediaries and costs. This journals ecosystem will rely in a decentralized network of reviewers, that will gain reputation in their field as they provide good peer reviews. Thus, we aim to encourage better and faster reviews through a reviewer reputation system, that will improve publishing experience for authors and journals and will enable more transparent processes. Journals will be able to govern themselves with Smart Contracts, making their processes even more transparent and becoming Distributed and Autonomous. Papers will be openly shared and published using the IPFS P2P technology. By removing intermediaries, we aim to provide a method for publishing open science that is free for everybody.
+![value proposition canvas](valuePropositionCanvas.jpg)
+
+In order to find our product's value proposition we conducted a brainstorming session in which we used a Value Proposition Canvas. These are the results of the session:
+
+We aim to build a new generation of distributed journals. It will enable transparent processes for science publishing and remove unnecesary intermediaries and costs.
+
+This journals ecosystem will rely in a decentralized network of reviewers, that will gain reputation in their field as they provide good peer reviews. Thus, we aim to encourage better and faster reviews through that reputation system, that will improve publishing experience for authors and journals, enabling more transparent processes.
+
+Journals will be able to govern themselves with Smart Contracts, making their processes even more transparent and becoming Distributed and Autonomous, and papers will be openly shared and published using the IPFS P2P technology. By removing intermediaries, we aim to provide a method for publishing open science that is free for everybody.
 
 ## What is your distribution and go-to-market strategy? Who can you partner with?
 
@@ -86,7 +94,7 @@ from which we derive our
 
 We understand our *key metric* as dependant to other metrics, as the number of satisfied authors depends on how many recognized journals are in the system and how our system improves peer review process.
 
-![value proposition canvas](valuePropositionCanvas.jpg)
+![impact factors](ImpactFactors.jpg)
 
 Following we list the factors identified as relevant to our product.
 
@@ -103,5 +111,3 @@ Following we list the factors identified as relevant to our product.
 - \# time of response of journals
 - perceived quality of Journal vs traditional Journals  (Through formulaires)
 - Value of reviews (through reviewers rating system)
-
-![impact factors](ImpactFactors.jpg)
