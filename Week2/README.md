@@ -103,4 +103,4 @@ Following we list the factors identified as relevant to our product.
 - perceived quality of Journal vs traditional Journals  (Through formulaires)
 - Value of reviews (through reviewers rating system)
 
-![impact factors](impactFactors.jpg)
+![impact factors](ImpactFactors.jpg)
