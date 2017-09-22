@@ -76,12 +76,13 @@ First descentralized journal, the Distributed Open Journal of Distributed Open T
 
 Being our goal to help researchers to publish their work in transparent peer reviewed journals with good metrics (both standard such as JCR or Alternative Metrics), our most relevant impact metrics are defined as follows:
 
-*Author satisfaction*: new author to recurrent author convertion ratio
-*Journal satisfaction*: new journal to recurrent journal convertion ratio
-*Peer-review quality*: average review rating / average time of review
-*Recognized Impact*: number of published papers * (number of citations - number of unrecognized citations / number of citations)
+- *Author satisfaction*: `new author to recurrent author convertion ratio`
+- *Journal satisfaction*: `new journal to recurrent journal convertion ratio`
+- *Peer-review quality*: `average review rating / average time of review`
+- *Recognized Impact*: `number of published papers * (number of citations - number of unrecognized citations / number of citations)`
 
-from which we derive our **KEY METRIC**: number of authors * author satisfaction
+from which we derive our 
+- **KEY METRIC**: `number of authors * author satisfaction`
 
 We understand our *key metric* as dependant to other metrics, as the number of satisfied authors depends on how many recognized journals are in the system and how our system improves peer review process.
 
