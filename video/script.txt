@@ -1,0 +1,12 @@
+Centuries ago, scientists relied in specialized journals to access the last discoveries. The idea was great, Journals in specialized topics such as astronomy, collected the last discoveries from scientist around the world. The quality of the submissions was assessed by other scientists of the field in the so called "peer reviewing process". Then, issues of the journal with a compilation of reviewed papers were compiled, built and sent to interested subscribers.
+
+With the internet, the access to scientific knowledge could be much faster and cheaper. However, scientific publication and peer review is still really slow and access to papers through the internet is really expensive either to readers (note: paywalls) or authors (note: gold open access).
+
+So, we wonder:
+
+- What if science distribution would be free? Nor authors nor reviewers make money from it, so why a publisher should do?
+- What if peer review process would be faster? giving Journals and Authors warranties about the maximum review time.
+- What if reviewers where reviewed? giving value to good reviews and avoiding the immunity to critic of non-fair anonymous reviews.
+- What if all this helps authors and journals to produce free and open science?
+
+In Alexandria we want to explore it, using the tools of tomorrow for today's science.
