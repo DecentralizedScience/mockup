@@ -1,22 +1,13 @@
-Since the emergence of the scientific method, our best researchers have been
-sharing their awesome work in specialized journals. These journals have been
-collecting the last discoveries provided by the scientific community around
-the world in each field.
+For centuries, researchers have been sharing their work in specialized journals. These journals have been collecting the last discoveries provided by the scientific community around the world in each field. Other scientists of the field assessed the quality of the submissions before publication, by the so called, peer review.
 
-That system has also proved to be useful to assess the quality of the
-submissions through peer-reviewing processes, in which other scientists of the
-field were reviewing the papers before they were published.
-
-This has been the method in which science has been spread. Jourals issues have
+This has been the method in which science has been spread. Journals issues have
 been released in a regular basis with compilations of peer-reviewed papers and
 has been sent to interested subscribers.
 
 But this system has overcome obsolete with the spread of the Internet. Digital
 journals are mimicking the same processes printed journals were using centuries
 ago, meanwhile the access to scientific knowledge could be much faster and
-cheaper. Access to papers is really expensive either to readers and authors.
-Furthermore, scientific publication and peer-reviewing is as slow as it was
-before the Internet era.
+cheaper. Nowadays, access to papers is really expensive either to readers or authors. Furthermore, scientific publication and peer-reviewing is as slow as it was before the Internet era.
 
 So, we wonder:
 
