@@ -16,7 +16,7 @@ contract DAJ{
         string btcAddress;
 
         // Check if the paper is acepted
-        bool acepted;
+        bool published;
 
         //Reviewers asigned to the Paper
         address[] reviewers;
@@ -32,6 +32,13 @@ contract DAJ{
         uint acceptance;
     }
 
+    struct Rating{
+        address rater;
+        address reviewer;
+        uint numRating;
+    }
+
+
     //Variables
     mapping(uint => Paper) public papers;
     mapping(string => uint) ipfsPaperMap;
@@ -40,6 +47,8 @@ contract DAJ{
     address owner;
 
     uint[] pendingPapers;
+
+    mapping(bytes32 => Rating) reviewsRating;
 
     //Modifiers
     modifier onlyReviewerAssigned(string _ipfsAddress){
@@ -69,6 +78,13 @@ contract DAJ{
         uint _aceptance,
         string _paperIpfsAddress,
         string _reviewIpfsAddress);
+    event ReviewRated(
+        address _from,
+        address _toReviewer,
+        //string _reviewIpfsAddress,
+        string _paperIpfsAddress,
+        uint _rating
+        );
 
     //Functions
     function DAJ() public{
@@ -100,6 +116,7 @@ contract DAJ{
         )
         public{
         papers[numPapers].ipfsAddress = _ipfsAddress;
+        papers[numPapers].btcAddress = _btcAddress;
         papers[numPapers].authors = _authors;
         ipfsPaperMap[_ipfsAddress] = numPapers;
         PaperSent(msg.sender,_authors,numPapers,_ipfsAddress);
@@ -114,18 +131,45 @@ contract DAJ{
         ReviewersAssigned(_reviewers,_paperId,papers[_paperId].ipfsAddress);
     }
 
-    function sendReview(string _ipfsAddress, uint _acceptance, string _reviewIpfsAddress)
+    function sendReview(
+      string _ipfsAddress,
+      uint _acceptance,
+      string _reviewIpfsAddress
+      )
     public
     onlyReviewerAssigned(_ipfsAddress){
         uint paperId = ipfsPaperMap[_ipfsAddress];
-        Review storage newReview;
-        newReview.reviewer = msg.sender;
-        newReview.acceptance = _acceptance;
-        newReview.reviewIpfsAddress = _reviewIpfsAddress;
+        Review memory newReview = Review(
+          msg.sender,
+          _reviewIpfsAddress,
+          _acceptance
+          );
         papers[paperId].reviews.push(newReview);
         ReviewSent(msg.sender, _acceptance, _ipfsAddress, _reviewIpfsAddress);
         //TODO check if the paper is accepted
+        checkAcceptance(paperId);
     }
 
+    function checkAcceptance(uint paperId)
+    private{
+        Review[] memory reviews = papers[paperId].reviews;
+        for(uint i = 0 ; i < 3 ; i++){
+            if(reviews[i].acceptance < 2){
+                return;
+            }
+        }
+        papers[paperId].published = true;
+    }
     //TODO function to rate reviews
+
+    function rateReview(
+        string _ipfsAddress,
+        address _reviewerAddress,
+        uint _rateReview)
+    public{
+        bytes32 reviewHash = keccak256(_ipfsAddress, _reviewerAddress);
+        Rating memory newRating = Rating(msg.sender, _reviewerAddress, _rateReview);
+        reviewsRating[reviewHash] = newRating;
+        ReviewRated(msg.sender,_reviewerAddress, _ipfsAddress, _rateReview);
+    }
 }
