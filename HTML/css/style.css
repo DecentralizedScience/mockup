@@ -1,0 +1,12 @@
+h4 small{line-height: 1.3;}
+p a{font-weight: bold;}
+.list-group-item a {color: #7ea794;}
+.list-group-item-success a {color: green;}
+.list-group-item-warning a {color: #afaf03;}
+.list-group-item-info a{color: #087092;}
+.list-group-item-danger a{color: #980505;}
+.container>.navbar-header{min-height: 80px;}
+nav li a{font-size: 16px;text-transform: uppercase;}
+@media (min-width: 768px){nav li a {min-height: 80px;padding: 52px 15px 0px 15px !important;}}
+li.active a{background: transparent !important;box-shadow: none !important;font-weight: bolder;}
+li.active {border-bottom: 4px black solid;}
