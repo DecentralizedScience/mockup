@@ -1,3 +1,20 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url('Nunito_Sans/NunitoSans-Regular.ttf');
+}
+
+/* Alexandria colors
+  Version 1:
+    - E5A951
+    - 305282
+  Version 2:
+    - CBBFA8
+    - 1E365E
+  Version 3:
+    - 1E365E
+    - BFAF95
+ */
+
 h4 small{line-height: 1.3;}
 p a{font-weight: bold;}
 .list-group-item a {color: #7ea794;}
@@ -10,3 +27,6 @@ nav li a{font-size: 16px;text-transform: uppercase;}
 @media (min-width: 768px){nav li a {min-height: 80px;padding: 52px 15px 0px 15px !important;}}
 li.active a{background: transparent !important;box-shadow: none !important;font-weight: bolder;}
 li.active {border-bottom: 4px black solid;}
+body{
+  font-family: NunitoSans
+}
