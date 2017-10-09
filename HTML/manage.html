@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Manage journal - DOJôDOT</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavBar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img class="logo" src="images/svg/logo2.png"></a>
+      </div>
+      <ul class="collapse navbar-collapse nav navbar-nav" id="mainNavBar">
+        <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="register.html">Register Journal</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+      <form class="navbar-form navbar-collapse  navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Enter you search here">
+        </div>
+        <button type="submit" class="btn btn-default">Search</button>
+      </form>
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 center-block">
+          <h1>DOJôDOT - Manage Journal <small class="pull-right"><a href="journal.html">Go Back</a></small></h1>
+          <div>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Pending Papers</a></li>
+              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Accepted Papers</a></li>
+              <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Rejected Papers</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="home">
+                <div class="list-group">
+                <a  data-toggle="modal" data-target="#modalpaper1" class="list-group-item">
+                  <h4 class="list-group-item-heading">Personal coins - Distributed debit system</h4>
+                  <p class="list-group-item-text paper-author">Author: David Llop-Vila</p>
+                  <p class="list-group-item-text paper-published">Publised on: DOJôDOT</p>
+                  <p class="list-group-item-text paper-reviews alert alert-danger">No reviewers asigned</p>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="modalpaper1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Personal coins - Distributed debit system</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Assigned reviewers</h4>
+                        <div class="alert alert-danger">
+                          No reviewers asigned
+                        </div>
+                        <h4>Assing reviewer</h4>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Email">
+                          <span class="input-group-btn" style="line-height:inherit">
+                            <button class="btn btn-default" type="button">Assign Reviewer</button>
+                          </span>
+                        </div><!-- /input-group -->
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- Modal -->
+                <a data-toggle="modal" data-target="#modalpaper2" class="list-group-item">
+                  <h4 class="list-group-item-heading">Space - Secure Payments Contract in Ethereum</h4>
+                  <p class="list-group-item-text paper-author">Author: Viktor Jacynycz</p>
+                  <p class="list-group-item-text paper-published">Publised on: DOJôDOT</p>
+                  <p class="list-group-item-text paper-reviews alert alert-warning">2 of 3 reviewers asigned</p>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="modalpaper2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Personal coins - Distributed debit system</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Assigned reviewers 2 of 3</h4>
+                        <div class="list-group">
+                          <a href="author.html" class="list-group-item">Antonio Tenorio-Fornés</a>
+                          <a href="author.html" class="list-group-item">Satoshi Nakamoto</a>
+                        </div>
+                        <h4>Assing reviewer</h4>
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Email">
+                          <span class="input-group-btn" style="line-height:inherit">
+                            <button class="btn btn-default" type="button">Assign Reviewer</button>
+                          </span>
+                        </div><!-- /input-group -->
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- Modal -->
+              </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="profile">
+                <div class="list-group">
+                  <a href="paper.html" class="list-group-item">
+                    <h4 class="list-group-item-heading">IPFS - Content Addressed, Versioned, P2P File System</h4>
+                    <p class="list-group-item-text paper-author">Author: Juan Benet</p>
+                    <p class="list-group-item-text paper-published">Publised on: DOJôDOT</p>
+                    <p class="list-group-item-text paper-reviews">3 reviews - 1 accepted, 2 minor changes</p>
+                  </a>
+                  <a href="paper.html" class="list-group-item">
+                    <h4 class="list-group-item-heading">DOJôDOT - The  first distributed journal</h4>
+                    <p class="list-group-item-text paper-author">Author: Antonio Tenorio-Fornés and Viktor Jacynycz</p>
+                    <p class="list-group-item-text paper-published">Publised on: DOJôDOT</p>
+                    <p class="list-group-item-text paper-reviews">1 reviews - 1 accepted</p>
+                  </a>
+                </div></div>
+                <div role="tabpanel" class="tab-pane" id="messages"><div class="list-group">
+                  <a href="paper.html" class="list-group-item">
+                    <h4 class="list-group-item-heading">IPFS to circumvent Internet Censorship</h4>
+                    <p class="list-group-item-text paper-author">Authors: Antonio Tenorio-Fornés and David Llop-Vila</p>
+                    <p class="list-group-item-text paper-published">Publised on: DOJôDOT</p>
+                    <p class="list-group-item-text paper-reviews">3 reviews - 2 rejected, 1 major changes</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  $('.collapse').collapse({
+    toggle: false
+  });
+  </script>
+</body>
+</html>
